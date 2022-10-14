@@ -208,9 +208,9 @@ Water: 18
 """
 
 #read csv
-pokemon = pd.read_csv("C:\\Users\\abaya\\Documents\\Coding... Stuff\\Neural Network\\pokemon.csv")
-battles = pd.read_csv("C:\\Users\\abaya\\Documents\\Coding... Stuff\\Neural Network\\combats.csv")
-testData = pd.read_csv("C:\\Users\\abaya\\Documents\\Coding... Stuff\\Neural Network\\tests.csv")
+pokemon = pd.read_csv("\pokemon.csv")
+battles = pd.read_csv("combats.csv")
+testData = pd.read_csv("tests.csv")
 
 #change data to numerical values
 pokemon["Legendary"] = pokemon["Legendary"].astype(int)
